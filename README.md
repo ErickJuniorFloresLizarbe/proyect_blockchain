@@ -1,1 +1,1 @@
-# proyect_blockchain
+# AS222S6_T02_Criptopay
