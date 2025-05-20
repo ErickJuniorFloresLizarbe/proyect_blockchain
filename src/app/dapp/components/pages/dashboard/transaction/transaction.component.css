@@ -1,0 +1,31 @@
+/* Agregar animación de fade in para elementos que aparecen */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+:host {
+    display: block;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Animación para elementos que aparecen condicionalmente */
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Estilos para los selectores de tipo de transacción */
+.transaction-type-selector {
+    transition: all 0.2s ease-in-out;
+}
+
+.transaction-type-selector:hover {
+    transform: translateY(-2px);
+}
