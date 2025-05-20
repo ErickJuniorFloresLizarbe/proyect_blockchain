@@ -3,7 +3,7 @@ name: 🚀 Docker Push Latest
 on:
   push:
     branches:
-      - develop
+      - frontend
 
 jobs:
   docker:
