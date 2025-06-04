@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   angular-app:
-    image: angelcastilla/criptopay:latest
+    image: erickjunior/criptopay:latest
     build:
       context: .
       dockerfile: Dockerfile
